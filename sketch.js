@@ -56,7 +56,7 @@ function draw() {
   
 	fill (255,255,255);
 	circle(675, 190, 25);
-  }
+  
       pop();
     }
   }
