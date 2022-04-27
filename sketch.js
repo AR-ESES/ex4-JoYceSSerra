@@ -16,7 +16,47 @@ function draw() {
     for (let j = 1; j < espAltura; j++) {
       push();
       translate(i * width / espLarg,j * height / espAltura)
-      circle(0, 0, height / espAltura);
+   translate(-25,-20)
+      scale(0.20);
+      noStroke();
+   function setup() {
+	createCanvas(800, 800);
+  }
+  
+  function draw() {
+	background(189,236,182);
+  
+	fill(28,28,28)
+	ellipse(630, 150, 4, 95);
+	
+	fill(28,28,28)
+	ellipse(670, 150, 4, 95);
+	
+	fill(28,28,28)
+	ellipse(648, 380, 4, 95);
+  
+	fill(28,28,28)
+	circle(650, 200, 100)
+	
+	fill(255,255,0)
+	circle(650, 275, 100)
+	
+	fill(28,28,28)
+	circle(650, 350, 100);
+	  
+	strokeWeight(0.5);
+	
+	stroke(255,255,255);
+	
+	fill (255,255,255);
+	circle(623, 190, 25);
+  
+	strokeWeight(0.5);
+	stroke(255,255,255);
+  
+	fill (255,255,255);
+	circle(675, 190, 25);
+  }
       pop();
     }
   }
