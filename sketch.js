@@ -19,12 +19,8 @@ function draw() {
    translate(-25,-20)
       scale(0.20);
       noStroke();
-   function setup() {
-	createCanvas(800, 800);
-  }
   
-  function draw() {
-	background(189,236,182);
+  
   
 	fill(28,28,28)
 	ellipse(630, 150, 4, 95);
